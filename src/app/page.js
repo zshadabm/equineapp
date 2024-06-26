@@ -12,7 +12,7 @@ export default function Home() {
 
   {/* body */}
     <section>
-      <div className="container mx-auto pb-4">
+      <div className="container mx-auto pb-4 h-screen">
       <div class="grid lg:grid-cols-3 gap-4 md:grid-cols-1 sm:grid-cols-1 ">
   <div class="  col-span-1 md:col-span-2">
     <UpcomingsEvents />
