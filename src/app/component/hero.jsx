@@ -1,5 +1,6 @@
 import React from 'react'
 import Image from 'next/image'
+import hero from '../../../public/asset/image/hero.jpg'
 
 
 const Hero = () => {
@@ -33,7 +34,7 @@ const Hero = () => {
 
             <div class="absolute rounded-full bg-fuchsia-300 -bottom-24 right-20 w-72 h-72 mix-blend-multiply filter blur-xl opacity-70 animate-blob animation-delay-4000"></div>
             <div class="relative ">
-              <img class="object-cover object-center mx-auto rounded-lg shadow-2xl " alt="hero" src="./asset/image/hero.jpg"/>
+              <img class="object-cover object-center mx-auto rounded-lg shadow-2xl " alt="hero" src={hero}/>
             </div>
           </div>
         </div>
