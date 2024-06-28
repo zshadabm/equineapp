@@ -1,6 +1,6 @@
 import React from 'react'
 import Image from 'next/image'
-import hero from '../../../public/asset/image/hero.jpg'
+import hero from '../../../public/images/hero.jpg'
 
 
 const Hero = () => {
