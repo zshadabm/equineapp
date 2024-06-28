@@ -6,7 +6,7 @@ import PastEvents from "./component/pastEvents";
 
 export default function Home() {
   return (
-    <main className="">
+    <main className="overflow-hidden">
 
   {/* body */}
     <section>

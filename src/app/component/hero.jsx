@@ -1,10 +1,27 @@
 import React from 'react'
 import Image from 'next/image'
-import hero from '../../../public/images/hero.jpg'
+
 
 
 const Hero = () => {
   return (
+
+//     <div className='bg-[url("/asset/image/hero.jpg")] h-96 w-full bg-cover bg-center p-20 bg-no-repeat'>
+//     <div className="flex flex-col items-center justify-center">
+//         <h1 className="mb-2 text-4xl font-bold text-center dark:text-white">
+//             Hero section with background image
+//         </h1>
+//         <p className="text-lg text-center dark:text-white">
+//             This isLorem ipsum dolor sit amet consectetur adipisicing
+//             elit.
+//         </p>
+//         <div className="mt-4">
+//             <button className="px-6 py-2 text-center text-white bg-indigo-600 rounded-md shadow-md">
+//                 Get started
+//             </button>
+//         </div>
+//     </div>
+// </div>
 
 
 <section>
@@ -17,7 +34,7 @@ const Hero = () => {
 
             <div class="absolute rounded-full bg-fuchsia-300 -bottom-24 right-20 w-72 h-72 mix-blend-multiply filter blur-xl opacity-70 animate-blob animation-delay-4000"></div>
             <div class="relative ">
-              <Image class="object-cover  rounded-lg shadow-2xl max-w-xs md:max-w-sm m-auto"  style={{filter: ""}}  src={hero} />
+              <img class="object-cover object-center mx-auto rounded-lg shadow-2xl"  src='./images/hero.jpg' alt="hero" />
             </div>
           </div>
         </div>
