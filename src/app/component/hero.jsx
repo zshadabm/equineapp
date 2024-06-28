@@ -6,23 +6,6 @@ import hero from '../../../public/images/hero.jpg'
 const Hero = () => {
   return (
 
-//     <div className='bg-[url("/asset/image/hero.jpg")] h-96 w-full bg-cover bg-center p-20 bg-no-repeat'>
-//     <div className="flex flex-col items-center justify-center">
-//         <h1 className="mb-2 text-4xl font-bold text-center dark:text-white">
-//             Hero section with background image
-//         </h1>
-//         <p className="text-lg text-center dark:text-white">
-//             This isLorem ipsum dolor sit amet consectetur adipisicing
-//             elit.
-//         </p>
-//         <div className="mt-4">
-//             <button className="px-6 py-2 text-center text-white bg-indigo-600 rounded-md shadow-md">
-//                 Get started
-//             </button>
-//         </div>
-//     </div>
-// </div>
-
 
 <section>
   <div class="px-4 mx-auto max-w-7xl sm:px-6 md:px-12 lg:px-24 lg:pt-20 lg:pb-4">
